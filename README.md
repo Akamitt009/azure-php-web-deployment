@@ -1,4 +1,4 @@
-# 🚀 Azure PHP Web Deployment (Nginx + PHP-FPM)
+# 🚀 # Azure PHP Web Application Deployment
 
 ## 📌 Project Overview
 This project demonstrates the end-to-end deployment of a PHP-based web application on Microsoft Azure using a Linux Virtual Machine.
