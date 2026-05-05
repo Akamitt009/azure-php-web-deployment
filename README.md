@@ -1,13 +1,13 @@
-# 🚀 # Azure PHP Web Application Deployment
+# Azure PHP Web Application Deployment
 
-## 📌 Project Overview
+## Project Overview
 This project demonstrates the end-to-end deployment of a PHP-based web application on Microsoft Azure using a Linux Virtual Machine.
 
 The deployment includes configuring Nginx as a web server, integrating PHP-FPM for dynamic content execution, and hosting a live production-ready website accessible via public IP.
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 - Microsoft Azure (Virtual Machine)
 - Ubuntu 24.04 (Linux)
 - Nginx Web Server
@@ -30,7 +30,7 @@ The deployment includes configuring Nginx as a web server, integrating PHP-FPM f
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 deployment/
  ├── commands.md   # Deployment commands used
@@ -38,11 +38,11 @@ deployment/
 
 ---
 
-## 🌐 Live Demo
-👉 👉 [Live Website](http://4.213.35.81)
+## Live Demo
+[Live Website](http://4.213.35.81)
 ---
 
-## 🔥 Key Learnings
+## Key Learnings
 - Azure VM provisioning and configuration  
 - Linux server management (Ubuntu)  
 - Nginx configuration and troubleshooting  
@@ -52,7 +52,7 @@ deployment/
 
 ---
 
-## 🚀 Highlights
+## Highlights
 - Deployed real-world PHP project on cloud infrastructure
 - Successfully deployed a live PHP website on Azure  
 - Configured production-like environment manually  
@@ -61,6 +61,6 @@ deployment/
 
 ---
 
-## 👨‍💻 Author
+## Author
 **Amit Kumar**  
 Cloud & DevOps Enthusiast  
