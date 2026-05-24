@@ -299,56 +299,6 @@ http://4.213.35.81
 
 ---
 
-# 📸 Project Proof Screenshots
-
-## Azure Linux VM Deployment
-
-![Azure VM](images/azure-vm-overview.PNG)
-
----
-
-## SSH Connection Validation
-
-![SSH Validation](images/ssh-access-validation.PNG)
-
----
-
-## NGINX Installation
-
-![NGINX](images/nginx-installation.PNG)
-
----
-
-## PHP Installation
-
-![PHP](images/php-installation.PNG)
-
----
-
-## PHP Runtime Validation
-
-![PHP Runtime](images/php-fpm-running.PNG)
-
----
-
-## NGINX Configuration
-
-![NGINX Config](images/nginx-fastcgi-configuration.PNG)
-
----
-
-## Website Deployment
-
-![Website Files](images/web-files-deployment.PNG)
-
----
-
-## Live Website Validation
-
-![Live Website](images/live-website-running.PNG)
-
----
-
 # ⚠️ Engineering Challenges Solved
 
 | Challenge | Solution |
