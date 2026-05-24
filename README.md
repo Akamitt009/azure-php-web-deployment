@@ -2,7 +2,7 @@
 
 ![Azure](https://img.shields.io/badge/Azure-Cloud-0078D4?logo=microsoftazure&logoColor=white)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-24.04-E95420?logo=ubuntu&logoColor=white)
-![Nginx](https://img.shields.io/badge/NGINX-Web_Server-009639?logo=nginx)
+![NGINX](https://img.shields.io/badge/NGINX-Web_Server-009639?logo=nginx)
 ![PHP](https://img.shields.io/badge/PHP-8.3-777BB4?logo=php)
 ![Linux](https://img.shields.io/badge/Linux-Administration-FCC624?logo=linux&logoColor=black)
 ![SSH](https://img.shields.io/badge/SSH-Secure_Access-black)
@@ -13,41 +13,41 @@ Production-grade PHP web application deployment platform built on Microsoft Azur
 
 # 📌 Executive Summary
 
-Designed and implemented cloud-hosted PHP application deployment platform using:
+Designed and implemented cloud-hosted PHP deployment platform using:
 
 ✅ Azure Linux Virtual Machine
 
 ✅ Ubuntu Server Administration
 
-✅ NGINX Web Server
+✅ NGINX Web Hosting
 
-✅ PHP-FPM Processing
+✅ PHP-FPM Runtime Integration
 
-✅ SSH Key Authentication
+✅ SSH Secure Access
 
-✅ Linux File Permission Management
+✅ Linux Permission Management
 
-✅ Production Web Hosting
+✅ Production Troubleshooting
 
-✅ Troubleshooting & Debugging Workflow
+✅ Real Cloud Deployment Validation
 
 ---
 
 # 🎯 Business Requirement
 
-Modern application deployment environments require:
+Modern web hosting infrastructure requires:
 
-❌ Manual infrastructure dependency
+❌ Manual deployment dependency
 
-❌ Improper web server configuration
+❌ Weak web server configuration
 
-❌ Dynamic content execution issues
+❌ Dynamic application processing issues
 
-❌ File permission problems
+❌ Linux permission problems
 
-❌ Weak deployment validation
+❌ Service availability troubleshooting
 
-❌ Infrastructure troubleshooting limitations
+❌ Production validation gaps
 
 This project solves those challenges using Azure cloud infrastructure and Linux web hosting practices.
 
@@ -60,26 +60,25 @@ graph TD
 
 User[Internet User]
 
-AzureIP[Azure Public IP]
+PublicIP[Azure Public IP]
 
 VM[Azure Linux VM]
 
 NGINX[NGINX Web Server]
 
-PHP[PHP-FPM Engine]
+PHP[PHP-FPM]
 
 Files[PHP Website Files]
 
-User --> AzureIP
+User --> PublicIP
 
-AzureIP --> VM
+PublicIP --> VM
 
 VM --> NGINX
 
 NGINX --> PHP
 
 PHP --> Files
-
 ```
 
 ---
@@ -88,37 +87,37 @@ PHP --> Files
 
 ### 🌐 Azure Linux VM
 
-Capabilities:
+Implemented:
 
 ✅ Ubuntu 24.04 Deployment
 
-✅ Secure SSH Access
+✅ Public IP Assignment
 
-✅ Cloud Infrastructure Hosting
+✅ Secure Remote Administration
 
 ---
 
 ### 📦 NGINX Web Server
 
-Capabilities:
+Implemented:
 
-✅ HTTP Request Handling
+✅ HTTP Request Processing
 
-✅ Reverse Proxy Processing
+✅ Dynamic Content Delivery
 
-✅ FastCGI Configuration
+✅ FastCGI Integration
 
 ---
 
-### ⚡ PHP-FPM Integration
+### ⚡ PHP Runtime Processing
 
-Capabilities:
+Configured:
 
-✅ Dynamic PHP Processing
+✅ PHP-FPM
 
-✅ PHP Runtime Management
+✅ PHP MySQL Extension
 
-✅ FastCGI Performance Optimization
+✅ FastCGI Execution
 
 ---
 
@@ -130,7 +129,7 @@ Implemented:
 
 ✅ Linux Permission Controls
 
-✅ Production Deployment Access
+✅ Production Access Management
 
 ---
 
@@ -141,17 +140,19 @@ Ensure environment readiness.
 | Requirement | Details |
 |-------------|----------|
 | Azure Subscription | Active |
-| Linux VM | Ubuntu 24.04 |
+| Ubuntu Linux VM | Provisioned |
 | SSH Client | Installed |
 | NGINX | Installed |
 | PHP-FPM | Installed |
 | Git | Installed |
 
-Verify services:
+Verify:
 
 ```bash
 nginx -v
 ```
+
+Verify PHP:
 
 ```bash
 php -v
@@ -161,26 +162,26 @@ php -v
 
 # ⚙️ Configuration Variables
 
-Customize deployment configuration.
+Customize deployment.
 
 | Variable | Description | Default |
-|-----------|-------------|----------|
+|---|---|---|
 | location | Azure Region | East US |
-| vm_size | Virtual Machine SKU | Standard_B1s |
-| web_root | Website Root Path | /var/www/html |
-| php_version | PHP Runtime | 8.3 |
-| ssh_user | VM Admin User | azureuser |
+| vm_size | Azure VM SKU | Standard_B1s |
+| php_version | Runtime | 8.3 |
+| web_root | Deployment Path | /var/www/html |
+| ssh_user | Linux Admin User | azureuser |
 
 ---
 
 # ⚙️ Technology Stack
 
 | Technology | Purpose |
-|-------------|----------|
+|---|---|
 | Microsoft Azure | Cloud Platform |
 | Ubuntu 24.04 | Linux Operating System |
-| NGINX | Web Server |
-| PHP-FPM | Dynamic Processing |
+| NGINX | Web Hosting |
+| PHP-FPM | Runtime Processing |
 | SSH | Secure Administration |
 | GitHub | Documentation |
 
@@ -204,9 +205,9 @@ deployment/
 
 # 🚀 Deployment Workflow
 
-## 1️⃣ Azure VM Provisioning
+## 1️⃣ Provision Azure VM
 
-Provisioned:
+Created:
 
 ✅ Ubuntu Linux Virtual Machine
 
@@ -216,7 +217,7 @@ Provisioned:
 
 ---
 
-## 2️⃣ Secure SSH Connection
+## 2️⃣ SSH Secure Access
 
 Connected securely:
 
@@ -226,9 +227,7 @@ ssh -i key.pem azureuser@PUBLIC-IP
 
 ---
 
-## 3️⃣ NGINX Installation
-
-Installed:
+## 3️⃣ Install NGINX
 
 ```bash
 sudo apt update
@@ -238,9 +237,7 @@ sudo apt install nginx -y
 
 ---
 
-## 4️⃣ PHP Installation
-
-Installed:
+## 4️⃣ Install PHP
 
 ```bash
 sudo apt install php-fpm php-mysql -y
@@ -248,27 +245,27 @@ sudo apt install php-fpm php-mysql -y
 
 ---
 
-## 5️⃣ NGINX FastCGI Configuration
+## 5️⃣ Configure NGINX FastCGI
 
 Configured:
 
 ✅ PHP Processing
 
-✅ NGINX Integration
+✅ FastCGI Integration
 
 ✅ Dynamic Content Rendering
 
 ---
 
-## 6️⃣ Website Deployment
+## 6️⃣ Upload Website Files
 
-Uploaded files:
+Deployment Path:
 
 ```bash
 /var/www/html
 ```
 
-Configured:
+Permission Configuration:
 
 ```bash
 sudo chown -R www-data:www-data /var/www/html
@@ -276,9 +273,7 @@ sudo chown -R www-data:www-data /var/www/html
 
 ---
 
-## 7️⃣ Service Validation
-
-Restarted:
+## 7️⃣ Restart Services
 
 ```bash
 sudo systemctl restart nginx
@@ -298,20 +293,70 @@ Validated:
 
 # 🌍 Live Deployment
 
-Application URL:
+Live URL:
 
 http://4.213.35.81
+
+---
+
+# 📸 Project Proof Screenshots
+
+## Azure Linux VM Deployment
+
+![Azure VM](images/azure-vm-overview.PNG)
+
+---
+
+## SSH Connection Validation
+
+![SSH Validation](images/ssh-access-validation.PNG)
+
+---
+
+## NGINX Installation
+
+![NGINX](images/nginx-installation.PNG)
+
+---
+
+## PHP Installation
+
+![PHP](images/php-installation.PNG)
+
+---
+
+## PHP Runtime Validation
+
+![PHP Runtime](images/php-fpm-running.PNG)
+
+---
+
+## NGINX Configuration
+
+![NGINX Config](images/nginx-fastcgi-configuration.PNG)
+
+---
+
+## Website Deployment
+
+![Website Files](images/web-files-deployment.PNG)
+
+---
+
+## Live Website Validation
+
+![Live Website](images/live-website-running.PNG)
 
 ---
 
 # ⚠️ Engineering Challenges Solved
 
 | Challenge | Solution |
-|------------|-----------|
-| 403 Forbidden | Fixed file permissions |
-| 502 Bad Gateway | Fixed PHP-FPM integration |
-| Website inaccessible | NGINX validation |
-| Permission issue | www-data ownership |
+|---|---|
+| 403 Forbidden | Linux Permission Fix |
+| 502 Bad Gateway | PHP-FPM Integration Validation |
+| Website unavailable | NGINX Configuration Validation |
+| Permission issue | www-data Ownership Fix |
 
 ---
 
@@ -325,9 +370,9 @@ Validated:
 
 ✅ Linux Permissions
 
-✅ Service Health
-
 ✅ HTTP Response Validation
+
+✅ Service Health
 
 ---
 
@@ -357,13 +402,13 @@ Infrastructure Operations
 
 # 📈 Business Outcome
 
-Successfully implemented production-grade PHP web deployment environment supporting:
+Successfully implemented production-grade PHP deployment platform supporting:
 
 ✅ Cloud Hosting
 
-✅ Dynamic Web Processing
+✅ Dynamic PHP Execution
 
-✅ Linux Infrastructure
+✅ Linux Infrastructure Management
 
 ✅ Production Troubleshooting
 
